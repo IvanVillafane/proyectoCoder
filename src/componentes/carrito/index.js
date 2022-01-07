@@ -13,7 +13,7 @@ export const Carrito = () => {
 
   const tooglefalse = () => {
     setMenu(false);
-	};
+	}
 	
 	const reduce = id =>{
 		carrito.forEach(item =>{
@@ -44,14 +44,14 @@ export const Carrito = () => {
 		}
 	}
 
-  const show1 = menu ? "carritos show" : "carrito";
+  const show1 = menu ? "carritos show" : "carritos";
 	const show2 = menu ? "carrito show" : "carrito";
 	
 
 
   return (
-    <div className="carritos show">
-      <div className="carrito show">
+    <div className={show1}>
+      <div className={show2}>
         <div onClick={tooglefalse} className="carrito__close">
           <box-icon name="x"></box-icon>
         </div>
