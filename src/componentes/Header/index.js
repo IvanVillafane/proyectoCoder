@@ -6,6 +6,7 @@ import { DataContext } from '../../context/Dataprovider';
 export const Header = () => {
   const value= useContext(DataContext);
   const [menu, setmenu] = value.menu;
+  const [carrito] =value.carrito
 
   const toogleMenu = () => {
     setmenu(!menu)
@@ -26,7 +27,7 @@ export const Header = () => {
         </ul>
         <div className='cart' onClick={toogleMenu}>
             <box-icon name="cart"></box-icon>
-            <span className='item__total'>5</span>
+            <span className='item__total'>{carrito.length}</span>
         </div>
         </header>
     )

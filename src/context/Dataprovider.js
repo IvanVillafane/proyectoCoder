@@ -9,7 +9,6 @@ export const DataProvider = (props) => {
 	const [carrito, setCarrito] =useState([])
 	const [total, setTotal] = useState(0)
 
-	console.log(carrito)
 
   useEffect(() => {
 		const producto = Data.items 
@@ -22,7 +21,7 @@ export const DataProvider = (props) => {
 
 	const addCarrito = (id) =>{
 		const check = carrito.every(item =>{
-			return item.id !== id
+			return item.id !== id;
 			
 		})
 		if(check){
@@ -31,7 +30,7 @@ export const DataProvider = (props) => {
 			})
 			setCarrito([...carrito, ...data])
 		}else{
-			alert("El producto se ha añadido al carrito")
+			alert("El producto ya se encuentra en tú carrito")
 		}
 	}
 	useEffect(() =>{
@@ -58,8 +57,8 @@ export const DataProvider = (props) => {
 	const value = {
 		productos : [productos],
 		menu: [menu, setMenu],
-		carrito: [carrito, setCarrito],
 		addCarrito: addCarrito,
+		carrito: [carrito, setCarrito],
 		total: [total, setTotal]
 	}
 	return (
