@@ -1,13 +1,14 @@
 import React from "react";
 import { Header } from "./componentes/Header";
 import 'boxicons';
-import { BrowserRouter as Router, Switch, Route,Link
-} from "react-router-dom"
+import { BrowserRouter as Router,} from "react-router-dom"
 import {Paginas} from "./componentes/Paginas";
+import { ProductosLista } from "./componentes/Productos";
 
 
 function App() {
   return (
+
     <div className="App">
       <Router>
       <Header />  
@@ -15,6 +16,7 @@ function App() {
       </Router>
 
     </div>
+
   );
 }
 
