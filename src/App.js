@@ -4,18 +4,23 @@ import 'boxicons';
 import { BrowserRouter as Router,} from "react-router-dom"
 import {Paginas} from "./componentes/Paginas";
 import { ProductosLista } from "./componentes/Productos";
+import { DataProvider } from "./context/Dataprovider";
+import { Carrito } from "./componentes/carrito";
 
 
 function App() {
   return (
 
+    <DataProvider>
     <div className="App">
       <Router>
       <Header />  
+      <Carrito />
       <Paginas/>
       </Router>
 
     </div>
+    </DataProvider>
 
   );
 }
