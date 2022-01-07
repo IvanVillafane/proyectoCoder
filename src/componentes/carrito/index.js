@@ -33,7 +33,7 @@ export const Carrito = () => {
 	}
 
 	const removeProducto = id =>{
-		if(window.confirm("¿Quieres eliminar el producto?")){
+		if(window.confirm("¿Querés quitar este producto?")){
 			carrito.forEach((item, index)=>{
 				if(item.id === id){
 					item.cantidad = 1;
