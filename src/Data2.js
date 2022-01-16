@@ -1,3 +1,27 @@
+
+
+// const db= getFirestore();
+
+// useEffect (async ()=>{
+// await detalle()
+// }, [])
+
+// const detalle = async () => {
+
+// const querySnapshot = await getDocs(collection(db, "Data2"));
+// querySnapshot.docs.forEach((doc) => {
+//   console.log(`${doc.id} => ${JSON.stringify(doc.data())}`);
+// });
+// }
+
+
+
+// export default detalle;
+
+
+
+
+
 const data = {
   status: "success",
   items: [
