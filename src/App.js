@@ -6,8 +6,7 @@ import {Paginas} from "./componentes/Paginas";
 import { ProductosLista } from "./componentes/Productos";
 import { DataProvider } from "./context/Dataprovider";
 import { Carrito } from "./componentes/carrito";
-import Usuario from "./componentes/firebaseCar/FirebaseUpload";
-
+import FirebaseApp from "./componentes/firebase/FirebaseApp";
 
 
 function App() {
@@ -21,7 +20,8 @@ function App() {
       <Header />  
       <Carrito />
       <Paginas/>
-      <Usuario/>
+      {/* <Usuario/> */}
+      <FirebaseApp/>
       </Router>
       <h1>Firebase @9</h1>
 
