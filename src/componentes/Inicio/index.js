@@ -11,7 +11,8 @@ export const Inicio = () => {
         <Link to="/productos">
             <h1>Productos</h1>
         </Link>
-        <img src={Portada} alt='inicio w-100'/>
+      
+        <img src={Portada} alt='inicio' className='vh-100'/>
 
         </div>
     )

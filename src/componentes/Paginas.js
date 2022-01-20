@@ -15,6 +15,7 @@ export const Paginas = () =>{
         <Route path="/productos" element={<ProductosLista />} />
         <Route path="/producto/:id" element={<ProductosDetalles />} />
 
+
       </Routes>
    </div>
   )

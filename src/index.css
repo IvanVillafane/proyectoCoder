@@ -199,9 +199,10 @@ header .cart span {
 /*INICIO ESTILOS*/
 
 .inicio{
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 9rem;
+  display:grid;
+  width:100%;
+  margin: 0 0 auto;
+  padding-top: 5rem;
 }
 /*CARRITO DE NIKES*/
 

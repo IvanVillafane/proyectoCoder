@@ -2,7 +2,7 @@
 // import {useEffect} from "react";
 // import db from "./Firebase";
 import { storage } from "./firebase";
-import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import { ref, uploadBytesResumable, getDownloadURL,addDoc  } from "firebase/storage";
 
 export const fileUpload = async (fileName) => {
 
@@ -59,9 +59,10 @@ export const fileUpload = async (fileName) => {
                     res(downloadURL)
                 });
             }
-        );
-    })
-
+            );
+            
+        })
+        
     return await uploadPromise
 
 }

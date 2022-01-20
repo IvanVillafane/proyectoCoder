@@ -19,6 +19,7 @@ export default function FirebaseApp() {
       addDoc(collection(db, 'products'), {...element, image: imgURL })
 
     })
+    
 
   } 
 

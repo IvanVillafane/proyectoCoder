@@ -2,6 +2,7 @@ import React,{useContext} from 'react';
 import Nike from "../../images/Nike.png";
 import { Link } from 'react-router-dom';
 import { DataContext } from '../../context/Dataprovider';
+import AppFirebase from '../firebase/AppFirebase';
 
 export const Header = () => {
   const value= useContext(DataContext);
@@ -24,6 +25,10 @@ export const Header = () => {
             <li>
                 <Link to='/productos'>PRODUCTOS</Link>
             </li>
+            <li>
+                <Link to='/gorras'>GORRAS</Link>
+            </li>
+          
         </ul>
         <div className='cart' onClick={toogleMenu}>
             <box-icon name="cart"></box-icon>
