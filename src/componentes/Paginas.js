@@ -9,7 +9,7 @@ import { ProductosDetalles } from "./Productos/ProductosDetalle";
 export const Paginas = () =>{
   return (
   <div>
-   <h1>Welcome to React Router Por fin!</h1>
+   <h1>Welcome to mi pagina</h1>
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/productos" element={<ProductosLista />} />

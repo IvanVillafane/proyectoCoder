@@ -16,7 +16,7 @@ export const Inicio = () => {
         </div>
         <div>
 
-            <img src={Portada} alt='inicio' className='vh-100'/>
+            <img src={Portada} alt='inicio' className='inicio'/>
         </div>
         </>
     )
