@@ -2,7 +2,6 @@ import React,{useContext} from 'react';
 import Nike from "../../images/Nike.png";
 import { Link } from 'react-router-dom';
 import { DataContext } from '../../context/Dataprovider';
-import AppFirebase from '../firebase/AppFirebase';
 
 export const Header = () => {
   const value= useContext(DataContext);

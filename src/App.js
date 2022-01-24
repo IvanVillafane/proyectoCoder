@@ -6,8 +6,7 @@ import {Paginas} from "./componentes/Paginas";
 import { ProductosLista } from "./componentes/Productos";
 import { DataProvider } from "./context/Dataprovider";
 import { Carrito } from "./componentes/carrito";
-import FirebaseApp from "./componentes/firebase/FirebaseApp";
-import AppFirebase from "./componentes/firebase/AppFirebase";
+
 
 
 function App() {
@@ -22,8 +21,8 @@ function App() {
       <Carrito />
       <Paginas/>
       {/* <Usuario/> */}
-      <FirebaseApp/>
-      <AppFirebase/>
+      {/* <FirebaseApp/>
+      <AppFirebase/> */}
 
       </Router>
       <h1>Firebase @9</h1>

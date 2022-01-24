@@ -2,7 +2,7 @@ import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import { Inicio } from "./Inicio";
 import { ProductosLista } from "./Productos";
-import {ProductosDetalles} from "./Productos/ProductosDetalle";
+import { ProductosDetalles } from "./Productos/ProductosDetalle";
 
 
 

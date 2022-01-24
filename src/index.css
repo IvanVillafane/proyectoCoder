@@ -336,9 +336,6 @@ header .cart span {
   background-color: #31b1fc;
   color: rgb(238, 13, 13);
 }
-
-
-
 /*--------------DETALLES --------------*/
 .detalles{
   display: flex;
@@ -348,7 +345,7 @@ header .cart span {
   box-sizing: border-box;
 }
 .detalles h2{
-  font-size: 3rem;
+  font-size: 3.5rem;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -356,16 +353,9 @@ header .cart span {
   color: #1a202c;
 }
 .detalles .price{
-  font-size: 3rem;
-  width: 100%;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #08a05c;
-}
-.detalles img{
-  min-height: 300px;
-  object-fit: contain;
-  margin-top:  -7rem;
-  z-index: -1;
 }
 .detalles button{
   max-width: 300px;
@@ -374,17 +364,16 @@ header .cart span {
   border: none;
   outline: 0;
   background-color: #3033d3;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: white;
   font-weight: 600;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
 }
-.detalles .grid {
+.detalles .grid{
   display: grid;
-  border-radius: 8px;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem 1rem;
+  gap: 2rem 1rem;
   max-width: 350px;
 }
 .detalles .grid > .nuevo, .tamano{
@@ -397,16 +386,11 @@ header .cart span {
 }
 .detalles .grid .nuevo{
   background-color:#08a05c;
-  height: auto;
-  display: flex;
-
-
   
 }
 .detalles .grid .tamano{
   background-color:#f1365b;
   display: flex;
-  height: auto;
 }
 .detalles .grid .tamano select{
   border: none;
@@ -415,6 +399,12 @@ header .cart span {
   background-color:#f1365b;
   color: white;
   cursor: pointer;
+}
+.detalles img{
+  min-height: 300px;
+  object-fit: contain;
+  margin-top:  -7rem;
+  z-index: -1;
 }
 .detalles input{
   max-width: 700px;
@@ -427,26 +417,13 @@ header .cart span {
   max-width: 1300px;
   width: 100%;
   letter-spacing: 1px;
-  color: #6b6969;
+  color: #5f5d5d;
   margin: 0 auto;
   font-weight: 500;
 }
 .detalles .description b{
   font-size: 1.4rem;
-  color: #292b30;
-}
-
-.relacionados{
-  text-align: center;
-  background: #30333a;
-  color: whitesmoke;
-  max-width: 350px;
-  width: 100%;
-  margin: 2rem auto;
-  font-size: 18px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-
+  color: #30333a;
 }
 
 

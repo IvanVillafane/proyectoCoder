@@ -3,7 +3,7 @@ import Portada from "../../images/inicio.jpg";
 import { Link } from "react-router-dom";
 
 export const Inicio = () => {
-    return (
+    return (<>
         <div className='inicio'>   
         <Link to="/">
             <h1>Inicio</h1>
@@ -12,8 +12,12 @@ export const Inicio = () => {
             <h1>Productos</h1>
         </Link>
       
-        <img src={Portada} alt='inicio' className='vh-100'/>
 
         </div>
+        <div>
+
+            <img src={Portada} alt='inicio' className='vh-100'/>
+        </div>
+        </>
     )
 }
