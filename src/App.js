@@ -20,6 +20,7 @@ function App() {
       <Header />  
       <Carrito />
       <Paginas/>
+      
       {/* <Usuario/> */}
       {/* <FirebaseApp/>
       <AppFirebase/> */}
