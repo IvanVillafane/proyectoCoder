@@ -18,8 +18,7 @@ const port = process.env.PORT || 4000;
 app.listen(port);
 app.get("/",(req, res, )=>{res.send("la pagina Inicio");});
 console.log( `Listen on Port ${port}`);
-module.exports = (req, res) => {
-  res.status(404).json({ message: 'Not Found' });
-};
+
+
 reportWebVitals();
 
